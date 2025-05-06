@@ -1,12 +1,14 @@
 <script lang="ts">
 	import Button from "./Button.svelte";
 	import Line from "./Line.svelte";
+	import Screen from "./Screen.svelte";
 </script>
 
 <div class="calculator">
+    <Screen value="teste"/>
 	<Line>
 		<Button triple highlight text="AC" />
-        <Button operation text="/" />
+		<Button operation text="/" />
 	</Line>
 	<Line>
 		<Button text="7" />
@@ -38,9 +40,9 @@
 		background-color: var(--background-color);
 		display: flex;
 		flex-direction: column;
-		height: 200px;
+		height: 220px;
 		width: 150px;
-        padding: 5px;
-        border-radius: 10px;
+		padding: 5px;
+		border-radius: 10px;
 	}
 </style>

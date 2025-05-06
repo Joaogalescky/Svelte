@@ -1,9 +1,9 @@
 <div class="line">
-    <slot />
+	<slot />
 </div>
 
 <style>
-    .line {
-        display: flex;
-    }
+	.line {
+		display: flex;
+	}
 </style>
