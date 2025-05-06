@@ -5,31 +5,31 @@
 
 <div class="calculator">
 	<Line>
-		<Button triple text="AC" />
-        <Button text="/" />
+		<Button triple highlight text="AC" />
+        <Button operation text="/" />
 	</Line>
 	<Line>
 		<Button text="7" />
 		<Button text="8" />
 		<Button text="9" />
-		<Button text="*" />
+		<Button operation text="*" />
 	</Line>
 	<Line>
 		<Button text="4" />
 		<Button text="5" />
 		<Button text="6" />
-		<Button text="-" />
+		<Button operation text="-" />
 	</Line>
 	<Line>
 		<Button text="1" />
 		<Button text="2" />
 		<Button text="3" />
-		<Button text="+" />
+		<Button operation text="+" />
 	</Line>
 	<Line>
 		<Button double text="0" />
 		<Button text="," />
-		<Button text="=" />
+		<Button highlight text="=" />
 	</Line>
 </div>
 
@@ -40,5 +40,7 @@
 		flex-direction: column;
 		height: 200px;
 		width: 150px;
+        padding: 5px;
+        border-radius: 10px;
 	}
 </style>
