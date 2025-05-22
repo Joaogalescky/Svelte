@@ -1,18 +1,25 @@
 <script lang="ts">
+	import { object_without_properties } from "svelte/internal";
 	import Button from "./Button.svelte";
 	import Line from "./Line.svelte";
 	import Screen from "./Screen.svelte";
 
-	let value = '0'
+	class Model {
+		value : string
+		constructor(value : string = '0') {
+			this.value = value
+		}	
+	}
+
+	let obj = new Model()
 
 	function digitNumber(number : string) {
-		console.log(number)
-		value += number
+		obj.value += number
 	}
 </script>
 
 <div class="calculator">
-    <Screen value={value}/>
+    <Screen value={obj.value}/>
 	<Line>
 		<Button triple highlight text="AC"/>
 		<Button operation text="/"/>
