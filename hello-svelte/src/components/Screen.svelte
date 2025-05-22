@@ -54,7 +54,7 @@
 	.s-19 {
 		font-size: 0.74rem;
 	}
-	.pequena {
+	.small {
 		font-size: 0.6rem;
 	}
 </style>
