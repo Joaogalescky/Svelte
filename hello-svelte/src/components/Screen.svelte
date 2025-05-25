@@ -14,7 +14,7 @@
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
-        margin: 2px 1px;
+        margin: 5px 1px;
 		padding: 0px 5px; /*Vpx Hpx*/
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;

@@ -50,9 +50,11 @@
 		background-color: var(--background-color);
 		display: flex;
 		flex-direction: column;
-		height: 220px;
-		width: 150px;
-		padding: 5px;
+		height: 240px;
+		width: 200px;
+		padding: 10px;
 		border-radius: 10px;
+		font-size: 18px;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 </style>
